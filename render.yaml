@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: hosting-bot
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: 9225295946:AAEjWAzu_iAg47-zApbzi_QVWxuoI7m7Eik
+        sync: false
+      - key: 8815761530
+        sync: false
+      - key: 8815761530
+        sync: false
+      - key: @fx_roshan_ofc
+        sync: false
+      - key: @ffx_roshan
+        sync: false
+      - key: ffxroshan27
+        sync: false
+        
